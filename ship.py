@@ -15,5 +15,5 @@ class Ship():
         self.rect.midbottom = self.screen_rect.midbottom
 
     def blitme(self):
-        """Рисует корабля в текущей позиции"""
+        """Рисует корабль в текущей позиции"""
         self.screen.blit(self.image, self.rect)
